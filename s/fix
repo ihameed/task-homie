@@ -1,0 +1,5 @@
+#!/bin/sh
+ROOT=$(cd $(dirname "$0")/..; pwd -P)
+
+$ROOT/s/fix-eol
+$ROOT/s/fix-perms

@@ -1,0 +1,3 @@
+#!/bin/sh
+ROOT=$(cd $(dirname "$0")/..; pwd -P)
+find $ROOT/src \( -iname '*.hpp' -o -iname '*.cpp' \) -exec chmod 644 {} \;

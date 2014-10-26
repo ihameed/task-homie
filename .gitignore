@@ -1,0 +1,10 @@
+bin/
+obj/
+/out
+
+*.aps
+*.opensdf
+*.sdf
+*.sln.docstates
+*.suo
+*.user
